@@ -32,8 +32,6 @@ h1{
 /* navegacion */
 .barraNav{
     background-color: blue;
-    padding: 15px 30px;
-    
 }    
 .barraNav ul { 
     list-style: none;                                           
@@ -53,61 +51,54 @@ h1{
     padding: 15px 30px;
     color: white;
     float:inline-end;
-
+    padding: 30px 60px;
 }
 .barraNav ul li a:hover{
     background-color: black;
 }
  /* main */
- .main__index h2{
+ .cuerpo__index h2{
      color: black;
      text-align: start;
      font-style: italic;
      font-size: 20px;
  } 
-/* .main__QuienesSomos{
-    background-color: white;
-} */
 .parrafos p{
-     margin: 20px;
+     margin: 40px;
      line-height: 1.5em;
      font-size: 1.05em;
      color: black;
 }
-.main__titulos h2{ 
+.cuerpo__creditos h2{
+    text-align: center;
+    color: black;
+    margin: 30px;
+    line-height: 1em;
+    font-size: 1em;
+    margin: 20px;
+}
+.cuerpo__quienes__somos h2{ 
      display: flex;
      flex-direction: column;
      align-items: center;
      color: black;
-     /* aca edite los textos */
-     margin: 30px;
-     line-height: 1em;
-     font-size: 2.5em;
- }
-/* .textos p{
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-     line-height: 1em;
-     font-size: 2.5em;
- }
- .textos p{
-     color: black;
-     line-height: 1.5em;
+     
+     margin: 2 0px;
+     line-height: 0.5em;
      font-size: 1.5em;
  }
-/* .textos{
-    width: 90%;
-    max-width: 1000px;
-    padding: 20px;
-    display: grid;
-} */ 
-.main__md{
+.cuerpo__modelos__disponibles{
     background-color: black;
 }
-.main__md h3{
+.cuerpo__modelos__disponibles h3{
     text-align: center;
+}
+.cuerpo__modelos__disponibles{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center; 
 }
 .carrusel__iveco{
     display: flex;
@@ -128,27 +119,6 @@ h1{
     overflow-x: scroll;
     width:90vw; 
 }
-/*
-.carrusel__pasado{
-    display: flex;
-    align-items: center;
-    overflow-x: scroll;
-    width: 90vw;
-    justify-content: center;
-}
-.carrusel__actuales{
-    display: flex;
-    align-items: center;
-    overflow-x: scroll;
-    width: 90vw;
-    justify-content: center;
-}
-.carrusel__futurista{
-    display: flex;
-    align-items: center;
-    width: 90vw;
-    justify-content: center;
-}*/
 .carrusel__pasado{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -209,56 +179,42 @@ h1{
     height: 350px;
     object-fit: contain;
 } 
-.main_md h3{
-    text-align: center;
-
-} 
-.main_md{
-    background-color: black;
+.body__contacto{
+    min-height: 25vw;
+}
+.cuerpo__contacto{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center; 
-}
-.main__md{
-    background-color: black;
-   
-}
-.main__c{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(./imagenes/efificiointeligente.png);
+    background-image: url(./imagenes/camatardecer.jpg);
     background-repeat: no-repeat;
     background-size: cover;     
 }
-.main__c h2{
-    text-align: center;
-    color: black;
-    margin: 30px;
-    line-height: 1em;
-    font-size: 1em;
+.contacto{
+    width: 80vw;
+}
+.iframe{
+    width: 70vw;
 }
 .formulario{
     text-align: center;
     color: black;
 }
-.grid__formulario{
+.formulario__grid{
     padding: 1em;
 }
-.contactos__c h3 {
-    margin: 30px;
+.contactos h3 {
     line-height: 1em;
     font-size: 1em;
     color: black;
 }
+
    /* footer */
-.footer__WSP{
-    background-color: blue;
-    padding: 10px 10px;
-    
+.footer{
+    background-color: #0000ff;
+    padding: 10px 10px;  
 }
-.footer__WSP a{
+.footer a{
     text-decoration: none;
     display: block;
     float: inline-end;
@@ -266,7 +222,7 @@ h1{
     border: 1px black;
     color: white;
 }
-.footer__WSP a:hover{
+.footer a:hover{
     background-color: black;
     transition: all 3s;
 }
