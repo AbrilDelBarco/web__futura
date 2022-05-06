@@ -1,0 +1,26 @@
+.cuerpo__contacto{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./imagenes/camatardecer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+.contacto{
+    width: 80vw;
+}
+.iframe{
+    width: 70vw;
+}
+.formulario{
+    text-align: center;
+    color: black;
+}
+.formulario__grid{
+    padding: 1em;
+}
+.contactos h3 {
+    line-height: 1em;
+    font-size: 1em;
+    color: black;
+}
