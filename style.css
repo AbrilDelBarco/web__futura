@@ -211,8 +211,8 @@ h1{
 
    /* footer */
 .footer{
-    background-color: #0000ff;
-    padding: 10px 10px;  
+    background-color: blue;
+    padding: 10px 10px;
 }
 .footer a{
     text-decoration: none;
