@@ -179,6 +179,9 @@ h1{
     height: 350px;
     object-fit: contain;
 } 
+.body__contacto{
+    min-height: 25vw;
+}
 .cuerpo__contacto{
     display:flex;
     flex-direction: column;
@@ -210,7 +213,6 @@ h1{
 .footer{
     background-color: blue;
     padding: 10px 10px;
-    
 }
 .footer a{
     text-decoration: none;
