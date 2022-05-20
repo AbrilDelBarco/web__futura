@@ -1,0 +1,36 @@
+.cuerpo__creditos h2{
+    text-align: center;
+    color: black;
+    margin: 30px;
+    line-height: 1em;
+    font-size: 1em;
+    margin: 20px;
+}
+.parrafos p{
+    margin: 40px;
+    line-height: 1.5em;
+    font-size: 1.05em;
+    color: black;
+}
+.footer__escritos{
+    background-color: blue;
+    padding: 10px 10px;
+}
+.footer__escritos{
+    background-color: blue;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.footer__escritos a{
+    display: block;
+    text-align: center;
+    border: 1px black;
+    color: white;
+    float: inline-end;
+    text-decoration: none;
+} 
+.footer__escritos a:hover{
+    background-color: black;
+    transition: all 3s;
+}
