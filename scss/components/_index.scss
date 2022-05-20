@@ -1,0 +1,79 @@
+.cuerpo__index h2{
+    color: black;
+    text-align: start;
+    font-style: italic;
+    font-size: 20px;
+} 
+.carrusel__pasado{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    width: 90vw;
+    box-sizing: border-box;
+}
+.carrusel__actuales{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    width: 90vw;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.carrusel__futurista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 1rem;
+    width: 90vw;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+@media only screen and (max-width:1160px) {
+   .carrusel__pasado{
+       grid-template-columns: 1fr 1fr;
+   }
+.carrusel__actuales{
+    grid-template-columns: 1fr 1fr;     
+    }
+.carrusel__futurista{
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media only screen and (max-width:720px) {
+   .carrusel__pasado{
+       grid-template-columns: 1fr;
+    }
+    .carrusel__actuales{
+    grid-template-columns: 1fr;    
+    }
+    .carrusel__futurista{
+    grid-template-columns: 1fr;
+    }
+}
+.galeria{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+} 
+.footer{
+    background-color: blue;
+    padding: 10px 10px;
+    
+}
+.footer a{
+    text-decoration: none;
+    display: block;
+    float: inline-end;
+    text-align: center;
+    border: 1px black;
+    color: white;
+}
+.footer a:hover{
+    background-color: black;
+    transition: all 3s;
+}

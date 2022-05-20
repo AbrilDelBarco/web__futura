@@ -1,0 +1,50 @@
+.cuerpo__contacto{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./imagenes/camatardecer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+.contacto{
+    width: 80vw;
+}
+.iframe{
+    width: 20vw;
+    height: 20vw;
+}
+.formulario{
+    text-align: center;
+    color: black;
+}
+.formulario__grid{
+    padding: 1em;
+}
+.contactos h3 {
+    line-height: 1em;
+    font-size: 1em;
+    color: black;
+}
+.footer__escritos{
+    background-color: blue;
+    padding: 10px 10px;
+}
+.footer__escritos{
+    background-color: blue;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.footer__escritos a{
+    display: block;
+    text-align: center;
+    border: 1px black;
+    color: white;
+    float: inline-end;
+    text-decoration: none;
+} 
+.footer__escritos a:hover{
+    background-color: black;
+    transition: all 3s;
+}
+
