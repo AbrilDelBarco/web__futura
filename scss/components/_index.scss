@@ -1,35 +1,34 @@
-.cuerpo__index h2{
-    color: black;
-    text-align: start;
+ h2{
+    color: white;
+    text-align:center;
     font-style: italic;
     font-size: 20px;
 } 
+.cuerpo__index{
+    background-color: black;
+}
 .carrusel__pasado{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     row-gap: 1rem;
-    width: 90vw;
+    columns: 1rem;
     box-sizing: border-box;
 }
 .carrusel__actuales{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     row-gap: 1rem;
-    width: 90vw;
-    justify-items: center;
-    align-items: center;
+    columns: 1rem;
     box-sizing: border-box;
 }
 .carrusel__futurista{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     row-gap: 1rem;
-    width: 90vw;
-    justify-items: center;
-    align-items: center;
+    columns: 1rem ;
     box-sizing: border-box;
 }
 @media only screen and (max-width:1160px) {
@@ -56,9 +55,9 @@
     }
 }
 .galeria{
-    width: 350px;
-    height: 350px;
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin: auto;
 } 
 .footer{
     background-color: blue;

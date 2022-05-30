@@ -1,50 +1,95 @@
-.cuerpo__contacto{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    background-image: url(./imagenes/camatardecer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;     
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.contacto{
+.body__contacto{
+    /* background-image: linear-gradient(to right,#000,#6781B3, #D4D7DD, #6781B3, #6781B3,#000 ); */
+    background-image: url(../../imagenes/atardecer.jpg.jpg);
+}
+.formulario{
+    width: 40vw;
+    background-color: #24303c;
+    padding: 30px;
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family:'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #1f53c5;
+    box-sizing: border-box;
+}
+.formulario h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-family:'Plus Jakarta Sans', sans-serif; 
+    font-weight: 600;
+    font-weight: bold;
+    color: white;
+}
+.controls{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    /* font-family: 'calibri'; */
+    font-size: 18px;
+    font-family:'Plus Jakarta Sans', sans-serif; 
+    /* font-weight: 600; */
+    font-weight: bold;
+    }
+.consulta{
+    width: 100%;
+    background-color: #24303c;
+    padding: 50px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    font-family:'Plus Jakarta Sans', sans-serif; 
+    font-weight: 600;
+    font-weight: bold;
+}
+.formulario .botons {
+    width: 100%;
+    background-color: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin:16px 0;
+    font-size: 16px;
+}
+.parrafos{
     width: 80vw;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.parrafos p{
+    margin: 50px;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-weight: 100;
+    font-weight: bold;
 }
 .iframe{
     width: 20vw;
     height: 20vw;
 }
-.formulario{
+.contenedorFormulario{
     text-align: center;
-    color: black;
+    color: white;
 }
-.formulario__grid{
+.formulario{
     padding: 1em;
 }
 .contactos h3 {
     line-height: 1em;
     font-size: 1em;
     color: black;
-}
-.footer__escritos{
-    background-color: blue;
-    padding: 10px 10px;
-}
-.footer__escritos{
-    background-color: blue;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-}
-.footer__escritos a{
-    display: block;
-    text-align: center;
-    border: 1px black;
-    color: white;
-    float: inline-end;
-    text-decoration: none;
-} 
-.footer__escritos a:hover{
-    background-color: black;
-    transition: all 3s;
 }
 
