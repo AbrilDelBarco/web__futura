@@ -3,7 +3,7 @@
     font-weight: 100;
     margin: 0;
     padding: 0;
-     box-sizing: border-box; 
+    box-sizing: border-box; 
     list-style: none;
 }
 body{
@@ -13,27 +13,38 @@ body{
 .cabecera {
     color: white;
     margin: auto;
+    background-color: rgb(214, 164, 1);
+ }
+ .slogan{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 1rem;
     background-image: linear-gradient(to right, pink, orange, yellow);
  }
 .logo{
-    height: 100px; width: 100px;
-    display: flex;
-    justify-content: left;
+    height: 70px; width: 70px;
+   /* padding-right: 10px; */
 }
-h1{
+.tituloPrincipal{
     text-align: center;
-    font-style: italic;
+    font-weight: bold;
     color: black;
-    margin: 15px;
+    /* margin: 20px; */
     line-height: 1em;
-    font-size: 2em;
+    font-size: 0.85em;
+    font-family:'Plus Jakarta Sans', sans-serif; 
+    font-weight: 900;
 }
 /* navegacion */
 .barraNav{
-    background-color: blue;
-}    
+    /* background-image: linear-gradient( to right, #060279,#5B57DE,#9694CD,#6A8ED1); */
+    /* background-image: url(../imagenes/vistasuperior.jpg); */
+    background-color: black;
+
+    }
 .barraNav ul { 
-    list-style: none;                                           
+    list-style: none;                                         
     margin: 0;
     padding: 0px;
     border: 1px;
@@ -50,8 +61,41 @@ h1{
     padding: 15px 30px;
     color: white;
     float:inline-end;
-    padding: 30px 60px;
+    /* font-weight: bold; */
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
 }
 .barraNav ul li a:hover{
-    background-color: black;
+    background-color: rgb(64, 64, 65);
 }
+.iconoWsp{
+    width: 30px;
+    height: 30px;
+}
+.footer__escritos{
+    background-color: blue;
+    padding: 1px;
+}
+.footer__escritos ul{
+    list-style: none;
+    margin: 2px;
+    padding: 2px;
+    border: 1px rgb(32, 199, 32);
+    border-style: none;
+    text-align: center;
+}
+.footer__escritos ul li{
+    display: inline-block;
+    color: white;
+} 
+.footer__escritos ul>li>a{
+    text-decoration: none;
+    display: block;
+    padding: 2px 20px;
+    color: white;
+    float: inline-end;
+}
+.footer__escritos a:hover{
+    background-color: white;
+    transition: all 3s;
+} 
