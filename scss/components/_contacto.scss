@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 .body__contacto{
-    /* background-image: linear-gradient(to right,#000,#6781B3, #D4D7DD, #6781B3, #6781B3,#000 ); */
-    background-image: url(../../imagenes/atardecer.jpg.jpg);
+     background-image: linear-gradient(to right,#000,#6781B3, #D4D7DD, #6781B3, #6781B3,#000 ); 
 }
 .formulario{
     width: 40vw;
@@ -34,16 +33,14 @@
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #1f53c5;
-    /* font-family: 'calibri'; */
     font-size: 18px;
     font-family:'Plus Jakarta Sans', sans-serif; 
-    /* font-weight: 600; */
     font-weight: bold;
     }
 .consulta{
     width: 100%;
     background-color: #24303c;
-    padding: 50px;
+    padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
     border: 1px solid #1f53c5;
@@ -68,13 +65,12 @@
     margin-top: 80px;
     text-align: center;
 }
-.parrafos p{
+.parrafos .p_contacto{
     margin: 50px;
     text-align: center;
     line-height: 1.5em;
     font-size: 20px;
     font-weight: 100;
-    font-weight: bold;
 }
 .iframe{
     width: 20vw;
