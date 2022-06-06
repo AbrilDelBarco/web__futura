@@ -59,20 +59,3 @@
     height: 100%;
     margin: auto;
 } 
-.footer{
-    background-color: blue;
-    padding: 10px 10px;
-    
-}
-.footer a{
-    text-decoration: none;
-    display: block;
-    float: inline-end;
-    text-align: center;
-    border: 1px black;
-    color: white;
-}
-.footer a:hover{
-    background-color: black;
-    transition: all 3s;
-}

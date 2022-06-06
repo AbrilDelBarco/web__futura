@@ -1,13 +1,4 @@
-.parrafos p{
-   /*  margin: 50px; */
-    margin-top: 1px;
-    text-align: center;
-    line-height: 1.5em;
-    font-size: 1px;
-    font-weight: 100;
-    /* font-weight: bold; */
-    /* border-bottom: 5px; */
-}
+
 .cuerpo__quienes__somos h1{ 
     text-align: center;
     color: black;
@@ -15,6 +6,18 @@
     font-size: 40px;
     font-size: 1.25em;
     font-family:'Plus Jakarta Sans', sans-serif; 
-    font-weight: 600;
-    font-weight: bold;
+   font-weight: 600; 
+   font-weight: bold;  
+} 
+.parrafos_q{
+    width: 80vw;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
 }
+    .parrafos_q p{
+        text-align: justify;
+        line-height: 1.5em;
+        margin: 50px;
+        font-size: 20px;
+    }
