@@ -82,8 +82,7 @@ body {
 .footer {
   background-color: blue;
   padding: 10px 10px;
-  bottom: 0;
-  width: 100vw; }
+  bottom: 0; }
 
 .footer a {
   text-decoration: none;
@@ -265,7 +264,6 @@ h2 {
   background-color: blue;
   padding: 10px 10px;
   bottom: 0;
-  width: 100vw;
   position: absolute; }
 
 .footer_creditos a {
